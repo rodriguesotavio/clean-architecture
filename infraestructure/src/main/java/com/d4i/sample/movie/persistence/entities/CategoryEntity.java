@@ -31,7 +31,7 @@ public class CategoryEntity implements Serializable {
 	@Column(name = "NAME", unique = true)
 	private String name;
 
-	@Column(name = "AVAILABLE", unique = true)
+	@Column(name = "AVAILABLE")
 	private Boolean available;
 
 }

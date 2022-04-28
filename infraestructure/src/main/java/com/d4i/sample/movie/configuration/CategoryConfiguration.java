@@ -14,10 +14,8 @@ import com.d4i.sample.movie.persistence.repositories.CategoryRepository;
 @Configuration
 public class CategoryConfiguration {
 
-	
 	@Autowired
 	private CategoryRepository categoryRepository;
-
 
 	@Bean
 	public CategoryRepositoryConverter createCategoryRepositoryConverter() {
